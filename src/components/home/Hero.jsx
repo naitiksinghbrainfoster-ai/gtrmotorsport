@@ -1,0 +1,233 @@
+import React, { useEffect, useRef, useState } from "react";
+import heroBg from "../../assets/img/home/hero-bg.jpg"; // swap in your actual image path
+import heroLogo from "../../assets/img/home/hero_logo2.svg";
+
+const STATS = [
+  { value: 30, suffix: "+", label: "Years Experience" },
+  { value: 100, suffix: "%", label: "Porsche Focused" },
+  { value: null, display: "PIWIS", label: "Factory Diagnostics" },
+  { value: 1, suffix: "", label: "Mission: Excellence" },
+];
+
+// Counts up from 0 to `value` once it scrolls into view
+function StatNumber({ value, suffix = "", duration = 1600 }) {
+  const [count, setCount] = useState(0);
+  const ref = useRef(null);
+  const started = useRef(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !started.current) {
+            started.current = true;
+            const startTime = performance.now();
+            const tick = (now) => {
+              const progress = Math.min((now - startTime) / duration, 1);
+              const eased = 1 - Math.pow(1 - progress, 3);
+              setCount(Math.round(eased * value));
+              if (progress < 1) requestAnimationFrame(tick);
+            };
+            requestAnimationFrame(tick);
+          }
+        });
+      },
+      { threshold: 0.4 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [value, duration]);
+
+  return (
+    <span ref={ref}>
+      {count}
+      {suffix}
+    </span>
+  );
+}
+
+export default function Hero() {
+  return (
+    <section
+      style={{
+        position: "relative",
+        width: "100%",
+        overflow: "hidden",
+        fontFamily: "'Oswald', 'Arial Narrow', sans-serif",
+      }}
+    >
+      {/* Background image */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          backgroundImage: `url(${heroBg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
+
+      {/* Darker overlay: solid black on the left where the text sits, fading out on the right */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+         background:
+"linear-gradient(90deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.72) 25%, rgba(0,0,0,0.42) 50%, rgba(0,0,0,0.15) 75%, rgba(0,0,0,0.05) 100%)",
+        }}
+      />
+      {/* Extra top-to-bottom darkening + solid black toward the stats bar at the bottom */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background:
+"linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.55) 85%, rgba(0,0,0,0.75) 100%)",
+        }}
+      />
+
+      {/* Hero content */}
+      <div
+        className="gtr-hero-content"
+        style={{
+          position: "relative",
+          zIndex: 2,
+          padding: "5rem 4vw 3rem",
+          maxWidth: "680px",
+        }}
+      >
+        <img
+          src={heroLogo}
+          alt="GTR Motorsport — Grace to Race"
+          className="gtr-hero-logo gtr-anim"
+          style={{
+            width: "100%",
+            maxWidth: "clamp(200px, 32vw, 480px)",
+            height: "auto",
+            display: "block",
+            marginTop: "1.5rem",
+            filter: "drop-shadow(0 4px 10px rgba(0,0,0,0.7))",
+            animationDelay: "0.1s",
+          }}
+        />
+
+        <p
+          className="gtr-hero-copy gtr-anim"
+          style={{
+            fontFamily: "'Inter', sans-serif",
+            fontWeight: 400,
+            fontSize: "clamp(1rem, 1.6vw, 1.15rem)",
+            lineHeight: 1.6,
+            color: "#c9c9c9",
+            maxWidth: "480px",
+            margin: "1.5rem 0 0 1.4rem",
+            animationDelay: "0.3s",
+          }}
+        >
+          Porsche service, performance &amp; motorsport specialists. Three
+          decades of European craftsmanship, dedicated exclusively to
+          Porsche.
+        </p>
+
+        <a
+          href="/contact"
+          className="gtr-hero-cta gtr-anim"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "0.6rem",
+            marginTop: "1.75rem",
+            marginLeft: "1.4rem",
+            padding: "0.9rem 2rem",
+            background: "#e42020",
+            color: "#fff",
+            textDecoration: "none",
+            fontWeight: 700,
+            fontSize: "0.9rem",
+            letterSpacing: "0.1em",
+            textTransform: "uppercase",
+            animationDelay: "0.5s",
+          }}
+        >
+          Schedule Service
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+
+      {/* Stats bar */}
+      <div
+        style={{
+          position: "relative",
+          zIndex: 2,
+          borderTop: "1px solid rgba(255,255,255,0.1)",
+          background: "rgba(0,0,0,0.55)",
+          padding: "2.2rem 8vw",
+        }}
+      >
+        <div
+          className="gtr-stats-grid"
+          style={{
+            maxWidth: "1400px",
+            margin: "0 auto",
+            display: "grid",
+            gridTemplateColumns: "repeat(4, 1fr)",
+            gap: "1.5rem",
+          }}
+        >
+          {STATS.map((stat, i) => (
+            <div key={stat.label}>
+              <div
+                style={{
+                  fontFamily: "'Oswald', sans-serif",
+                  fontWeight: 800,
+                  fontSize: "clamp(1.6rem, 3vw, 2.2rem)",
+                  color: "#e42020",
+                  lineHeight: 1,
+                }}
+              >
+                {stat.value !== null ? (
+                  <StatNumber value={stat.value} suffix={stat.suffix} />
+                ) : (
+                  stat.display
+                )}
+              </div>
+              <div
+                style={{
+                  fontFamily: "'Inter', sans-serif",
+                  fontSize: "0.78rem",
+                  fontWeight: 500,
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                  color: "#9a9a9a",
+                  marginTop: "0.4rem",
+                }}
+              >
+                {stat.label}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <style>{`
+        @keyframes gtrFadeUp {
+          from { opacity: 0; transform: translateY(26px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .gtr-anim {
+          opacity: 0;
+          animation: gtrFadeUp 0.8s ease-out forwards;
+        }
+
+        @media (max-width: 768px) {
+          .gtr-hero-content { padding: 3.5rem 4vw 3rem; max-width: 100% !important; }
+          .gtr-hero-copy { max-width: 100% !important; font-size: 0.95rem !important; margin-left: 0.6rem !important; }
+          .gtr-hero-cta { padding: 0.8rem 1.5rem !important; font-size: 0.8rem !important; margin-left: 0.6rem !important; }
+          .gtr-stats-grid { grid-template-columns: repeat(2, 1fr) !important; row-gap: 1.8rem !important; }
+        }
+      `}</style>
+    </section>
+  );
+}
