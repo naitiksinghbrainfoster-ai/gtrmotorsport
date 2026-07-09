@@ -1,6 +1,21 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import Workshop1 from "../../assets/img/gallery/workshop1.jpeg";
+import Workshop2 from "../../assets/img/gallery/workshop2.jpeg";
+import Workshop3 from "../../assets/img/gallery/workshop3.jpeg";
+import Workshop4 from "../../assets/img/gallery/workshop4.jpeg";
+import Engine1 from "../../assets/img/gallery/Engine1.jpeg";
+import Engine2 from "../../assets/img/gallery/Engine2.jpeg";
+import Engine3 from "../../assets/img/gallery/Engine3.jpeg";
+import Engine4 from "../../assets/img/gallery/Engine4.jpeg";
+import Performance1 from "../../assets/img/gallery/Performance1.jpeg";
+import Performance2 from "../../assets/img/gallery/Performance2.jpeg";
+import Performance3 from "../../assets/img/gallery/Performance3.jpeg";
+import Performance4 from "../../assets/img/gallery/Performance4.jpeg";
+import Track1 from "../../assets/img/gallery/Track1.jpeg";
+import Track2 from "../../assets/img/gallery/Track2.jpeg";
+import Customer from "../../assets/img/gallery/customer1.jpeg";
 
 const filters = [
   "All",
@@ -17,65 +32,106 @@ const gallery = [
     category: "Workshop",
     title: "Workshop Interior",
     height: "h-[520px]",
-    image:
-      "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1200&q=80&auto=format&fit=crop",
+    image: Workshop1,
   },
   {
     id: 2,
     category: "Engine",
     title: "Engine Assembly",
     height: "h-[340px]",
-    image:
-      "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=1200&q=80&auto=format&fit=crop",
+    image: Engine1,
   },
   {
     id: 3,
     category: "Performance",
     title: "GT3 Performance",
     height: "h-[430px]",
-    image:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80&auto=format&fit=crop",
+    image: Performance1,
   },
   {
     id: 4,
     category: "Track",
     title: "Track Day",
     height: "h-[300px]",
-    image:
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=1200&q=80&auto=format&fit=crop",
+    image: Track1,
   },
   {
     id: 5,
     category: "Customer",
     title: "Customer Delivery",
     height: "h-[470px]",
-    image:
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&q=80&auto=format&fit=crop",
+    image: Customer,
   },
   {
     id: 6,
     category: "Workshop",
     title: "Precision Work",
     height: "h-[360px]",
-    image:
-      "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=1200&q=80&auto=format&fit=crop",
+    image: Workshop2,
   },
   {
     id: 7,
     category: "Engine",
     title: "Performance Engine",
     height: "h-[520px]",
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80&auto=format&fit=crop",
+    image: Engine2,
   },
   {
     id: 8,
     category: "Track",
     title: "Race Weekend",
     height: "h-[360px]",
-    image:
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1200&q=80&auto=format&fit=crop",
+    image: Track2,
   },
+  {
+  id: 9,
+  category: "Workshop",
+  title: "Workshop Detailing",
+  height: "h-[430px]",
+  image: Workshop3,
+},
+{
+  id: 10,
+  category: "Workshop",
+  title: "Workshop Excellence",
+  height: "h-[360px]",
+  image: Workshop4,
+},
+{
+  id: 11,
+  category: "Engine",
+  title: "Engine Rebuild",
+  height: "h-[520px]",
+  image: Engine3,
+},
+{
+  id: 12,
+  category: "Engine",
+  title: "Performance Upgrade",
+  height: "h-[340px]",
+  image: Engine4,
+},
+{
+  id: 13,
+  category: "Performance",
+  title: "Performance Tuning",
+  height: "h-[430px]",
+  image: Performance2,
+},
+{
+  id: 14,
+  category: "Performance",
+  title: "Track Performance",
+  height: "h-[360px]",
+  image: Performance3,
+},
+{
+  id: 15,
+  category: "Performance",
+  title: "Race Engineering",
+  height: "h-[520px]",
+  image: Performance4,
+},
 ];
 
 export default function MasonryGallery() {

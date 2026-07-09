@@ -7,7 +7,7 @@ import {
   Timer,
   ArrowUpRight,
 } from "lucide-react";
-
+import Race from "../../assets/img/gallery/Race.jpeg";
 const services = [
   {
     icon: Flag,
@@ -147,7 +147,7 @@ export default function MotorsportGallery() {
             className="group relative overflow-hidden rounded-sm"
           >
             <img
-              src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=1800&q=80&auto=format&fit=crop"
+              src={Race}
               alt=""
               className="h-[760px] w-full object-cover transition duration-700 group-hover:scale-105"
             />

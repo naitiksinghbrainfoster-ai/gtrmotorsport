@@ -1,56 +1,11 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   CalendarDays,
   Clock3,
   ArrowRight,
 } from "lucide-react";
-
-const articles = [
-  {
-    category: "Track Preparation",
-    title: "How to Prepare Your Porsche for Track Day",
-    date: "July 2026",
-    read: "8 Min Read",
-    image:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80&auto=format&fit=crop",
-    link: "/blog/how-to-prepare-your-porsche-for-track-day",
-    description:
-      "A practical guide covering fluids, brakes, tires, suspension, safety checks and everything you need before taking your Porsche to the track.",
-  },
-  {
-    category: "Common Porsche Problems",
-    title: "Common Porsche IMS Bearing Concerns",
-    date: "July 2026",
-    read: "7 Min Read",
-    image:
-      "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=1200&q=80&auto=format&fit=crop",
-    link: "/blog/common-porsche-ims-bearing-concerns",
-    description:
-      "Learn which Porsche models are affected, warning signs to watch for and preventative steps to help protect your engine.",
-  },
-  {
-    category: "Track Preparation",
-    title: "Why Proper Alignment Matters on the Track",
-    date: "July 2026",
-    read: "6 Min Read",
-    image:
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=1200&q=80&auto=format&fit=crop",
-    link: "/blog/why-proper-alignment-matters-on-the-track",
-    description:
-      "Discover how camber, caster and toe settings affect grip, braking performance, handling and lap times on your Porsche.",
-  },
-  {
-    category: "Faith & Business",
-    title: "Faith, Excellence, and Motorsport",
-    date: "July 2026",
-    read: "5 Min Read",
-    image:
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&q=80&auto=format&fit=crop",
-    link: "/blog/faith-excellence-and-motorsport",
-    description:
-      "Discover how faith, integrity and craftsmanship influence every Porsche service, engine build and customer relationship at GTR Motorsport.",
-  },
-];
+import blogArticles from "../../data/blogArticles";
 
 export default function LatestArticlesSection() {
   return (
@@ -98,7 +53,7 @@ export default function LatestArticlesSection() {
 
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
 
-          {articles.map((article, index) => (
+          {blogArticles.map((article, index) => (
 
             <motion.article
               key={index}
@@ -162,15 +117,15 @@ export default function LatestArticlesSection() {
   with confidence.
 </p>
 
-                <a
-                  href={article.link}
+                <Link
+                  to={`/blog/${article.slug}`}
                   className="mt-8 inline-flex items-center gap-3 font-oswald text-[14px] uppercase tracking-[0.15em] text-[#C00000]"
                 >
                   Read Article
 
                   <ArrowRight size={17} />
 
-                </a>
+                </Link>
 
               </div>
 

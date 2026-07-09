@@ -1,12 +1,12 @@
 import { Phone, Calendar, ArrowRight } from "lucide-react";
+import Contacthero from "../../assets/img/contact/contacthero.jpeg";
 
 export default function HeroSection() {
   return (
     <section
       className="relative flex min-h-[600px] items-center overflow-hidden pb-24 pt-36 sm:pb-28 sm:pt-40 lg:min-h-[85vh] lg:pb-24 lg:pt-32"
       style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=2200&q=80&auto=format&fit=crop')",
+         backgroundImage: `url(${Contacthero})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
