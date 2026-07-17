@@ -1,35 +1,32 @@
 import Gallery1 from "../../assets/img/about/Performance.jpeg";
-import Gallery2 from "../../assets/img/about/Engine.jpeg";
-import Gallery3 from "../../assets/img/about/Porsche2.jpeg";
-import Gallery4 from "../../assets/img/about/Track.jpeg";
-import Gallery5 from "../../assets/img/about/Motorsport.jpeg";
+import Gallery2 from "../../assets/img/about/Engine.jpg";
+import Gallery3 from "../../assets/img/about/Track.jpg";
+import Gallery4 from "../../assets/img/about/Featured.jpg";
+
 
 const gallery = [
   {
     image:Gallery1,
-    title: "Performance Builds",
+    title: "Inside the Shop",
   },
   {
     image:Gallery2,
-    title: "Engine Rebuilds",
+    title: "Engine Builds",
   },
   {
     image:Gallery3,
-    title: "Porsche Workshop",
+    title: "Track Days",
   },
   {
     image:Gallery4,
-    title: "Track Preparation",
+    title: "Featured Porsches",
   },
-  {
-    image:Gallery5,
-    title: "Motorsport",
-  },
+
 ];
 
 export default function GallerySection() {
   return (
-    <section className="bg-[#050505] py-24 lg:py-32">
+    <section className="bg-[#050505] py-10 lg:py-14">
       <div className="mx-auto max-w-[1550px] px-5 lg:px-8">
 
         {/* Heading */}
@@ -52,9 +49,10 @@ export default function GallerySection() {
             Inside GTR Motorsport
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-[#A8A8A8]">
-            A glimpse inside our workshop, Porsche builds, motorsport
-            preparation and precision craftsmanship.
+          <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-white">
+            Every Porsche tells a different story. From routine maintenance and engine 
+rebuilds to complete restorations and track-focused builds, here's a look inside 
+the workshop where passion meets precision.
           </p>
 
         </div>

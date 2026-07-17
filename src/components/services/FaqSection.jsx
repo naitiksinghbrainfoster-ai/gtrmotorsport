@@ -2,30 +2,31 @@ import { useEffect, useRef, useState } from "react";
 import { Plus, Minus } from "lucide-react";
 
 const faqs = [
+
   {
-    question: "Do you only work on Porsche vehicles?",
+    question: "Do you use genuine Porsche PIWIS diagnostic equipment?",
     answer:
-      "Yes. GTR Motorsport is dedicated exclusively to Porsche service, diagnostics, performance upgrades, engine building and motorsport preparation. Our specialist focus allows us to deliver exceptional expertise and precision.",
+      "Yes. We use genuine Porsche PIWIS diagnostic equipment to accurately diagnose problems, perform software updates, and communicate directly with your Porsche's onboard systems.",
   },
   {
-    question: "Do you use Porsche factory diagnostic equipment?",
+    question: "Do you work on both classic and modern Porsche models?",
     answer:
-      "Absolutely. We utilize Porsche PIWIS factory diagnostic systems along with professional tools to accurately diagnose, program and troubleshoot your vehicle.",
+      "Absolutely. Our team services everything from classic air-cooled models to modern water-cooled Porsche vehicles, including daily drivers, collector cars, and track-focused builds.",
   },
   {
     question: "Can you prepare my Porsche for track days?",
     answer:
-      "Yes. We offer complete track preparation including inspections, suspension setup, corner balancing, brake upgrades, fluid services and performance tuning.",
+      "Yes. We offer track preparation, performance upgrades, suspension setup, corner balancing, safety inspections, and race support tailored to your driving goals and experience level.",
   },
   {
-    question: "Do you build performance engines?",
+    question: "Do you build and rebuild Porsche engines?",
     answer:
-      "Yes. We perform complete Porsche engine rebuilds, performance engine builds, IMS inspections and motorsport engine development with meticulous attention to detail.",
+      "Yes. We perform complete engine rebuilds, engine repairs, cylinder head restoration, IMS bearing service, and performance engine builds for a variety of Porsche platforms.",
   },
   {
-    question: "How do I schedule a service appointment?",
+    question: "How do I schedule an appointment?",
     answer:
-      "Simply contact us by phone or through our online contact form. We'll discuss your Porsche, recommend the appropriate service and schedule a convenient appointment.",
+      "You can schedule an appointment by phone or through our online booking form. We'll discuss your vehicle, your goals, and recommend the best next steps for your Porsche.",
   },
 ];
 
@@ -158,19 +159,16 @@ export default function FaqSection() {
           <div className="mb-14 text-center">
             <div className="mb-5 flex items-center justify-center gap-4">
               <div className="h-px w-14 bg-[#C00000]" />
-              <span className="font-inter text-[12px] font-semibold uppercase tracking-[0.3em] text-[#C00000]">
+              <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.3em] text-[#C00000]">
                 Frequently Asked Questions
               </span>
               <div className="h-px w-14 bg-[#C00000]" />
             </div>
 
-            <h2 className="font-oswald text-[30px] font-bold uppercase text-white md:text-[40px]">
-              Have Questions?
-            </h2>
 
-            <p className="mx-auto mt-5 max-w-[600px] font-inter text-[15px] leading-7 text-[#A8A8A8] md:text-[16px]">
-              Here are answers to some of the most common questions about
-              our Porsche services, motorsport support and engine building.
+            <p className="mx-auto mt-5 max-w-[600px] font-inter text-[18px] leading-7 text-white md:text-[18px]">
+              Here are answers to some of the most commonly asked questions 
+about our shop
             </p>
           </div>
         </Reveal>
@@ -195,7 +193,7 @@ export default function FaqSection() {
               Still Have Questions?
             </h3>
 
-            <p className="mx-auto mt-4 max-w-[560px] font-inter text-[15px] leading-7 text-[#A8A8A8] md:text-[16px]">
+            <p className="mx-auto mt-4 max-w-[560px] font-inter text-[15px] leading-7 text-white md:text-[16px]">
               Our team is happy to answer any questions about your Porsche,
               recommend the right service and help you schedule your visit.
             </p>

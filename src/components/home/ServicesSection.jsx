@@ -12,32 +12,32 @@ const services = [
   {
     icon: Wrench,
     title: "MAINTENANCE",
-    description: "Factory scheduled service, oil, brakes & fluids.",
+    description: "Factory-scheduled servicing to keep your Porsche performing as intended",
   },
   {
     icon: Gauge,
     title: "DIAGNOSTICS",
-    description: "PIWIS factory-level engine & electrical diagnostics.",
+    description: "Dealer-level PIWIS diagnostics with expert troubleshooting and repair",
   },
   {
     icon: SlidersHorizontal,
     title: "PERFORMANCE",
-    description: "Suspension, exhaust, brake & ECU upgrades.",
+    description: "Precision upgrades engineered for improved handling, power, and braking",
   },
   {
     icon: Cog,
     title: "ENGINE & Transmission",
-    description: "Rebuilds, IMS inspections, performance builds.",
+    description: "Complete rebuilds, drivetrain repairs, and performance engine packages",
   },
   {
     icon: Flag,
     title: "TRACK PREP",
-    description: "Alignments, corner balancing, race support.",
+    description: "Track-ready setup including alignments, corner balancing, and technical inspections",
   },
   {
     icon: ShieldCheck,
     title: "RESTORATION",
-    description: "Bringing classic Porsches back to factory spec.",
+    description: "Meticulous restorations that preserve Porsche heritage while exceeding factory standards.",
   },
 ];
 
@@ -51,13 +51,13 @@ export default function ServicesSection() {
             <div className="mb-7 flex items-center gap-4">
               <div className="h-px w-12 bg-[#D50000]" />
 
-              <span className="font-inter text-[13px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
+              <span className="font-inter text-[24px] font-semibold uppercase tracking-[0.1em] text-[#D50000]">
                 What We Do
               </span>
             </div>
 
-            <h2 className="font-oswald text-[32px] font-bold uppercase leading-none tracking-[1px] text-white md:text-[32px] xl:text-[32px]">
-              SERVICE. PERFORMANCE. MOTORSPORT.
+            <h2 className="font-oswald text-[26px] font-bold uppercase leading-none tracking-[1px] text-white md:text-[28px] xl:text-[28px]">
+              Service. Performance. Motorsport.
             </h2>
           </div>
 
@@ -88,7 +88,7 @@ export default function ServicesSection() {
                   {service.title}
                 </h3>
 
-                <p className="mt-5 max-w-[340px] font-inter text-[20px] leading-8 text-[#9C9C9C]">
+                <p className="mt-5 max-w-[340px] font-inter text-[20px] leading-8 text-white">
                   {service.description}
                 </p>
               </div>

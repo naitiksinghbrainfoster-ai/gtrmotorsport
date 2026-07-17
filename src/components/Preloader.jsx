@@ -38,8 +38,8 @@ export default function Preloader() {
 }
 
 .preloader img{
-  width:100px;
-  max-width:35vw;
+  width:220px;
+  max-width:55vw;
   user-select:none;
   -webkit-user-drag:none;
 

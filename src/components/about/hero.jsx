@@ -14,7 +14,7 @@ export default function Hero() {
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/30" />
+      <div className="absolute inset-0 bg-black/10" />
 
       {/* Left Gradient */}
       <div
@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="mb-5 flex items-center gap-3 sm:gap-4">
             <div className="h-[2px] w-8 sm:w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[10px] sm:text-[12px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[22px] sm:text-[22px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
               About GTR Motorsport
             </span>
           </div>
@@ -60,25 +60,23 @@ export default function Hero() {
             className="
               font-oswald
               font-bold
-              uppercase
+      
               leading-[1.08]
               text-white
-              text-[30px]
-              sm:text-[42px]
-              md:text-[50px]
-              lg:text-[56px]
-              xl:text-[62px]
+              text-[18px]
+              sm:text-[18px]
+              md:text-[25px]
+              lg:text-[26px]
+              xl:text-[32px]
             "
           >
-            Built On Faith.
-            <br />
-            Driven By Porsche.
+           Built For Porsche Owners
           </h1>
 
           {/* Paragraph */}
           <p
             className="
-              mt-6
+              mt-2
               max-w-full
               sm:max-w-[620px]
               lg:max-w-[660px]
@@ -87,12 +85,13 @@ export default function Hero() {
               sm:text-[17px]
               lg:text-[18px]
               leading-[1.8]
-              text-[#B8B8B8]
+              text-[#fff]
             "
           >
-            More than three decades of European automotive excellence,
-            dedicated exclusively to Porsche service, performance,
-            motorsport and precision engine building.
+           GTR Motorsport is the Porsche-exclusive division of Autowerks European. Created 
+for enthusiasts who expect more than routine service, we combine decades of 
+European automotive experience with specialized Porsche knowledge to deliver 
+expert maintenance, restoration, performance, and motorsport support.
           </p>
 
           {/* Buttons */}
@@ -118,7 +117,7 @@ export default function Hero() {
                 hover:scale-[1.03]
               "
             >
-              Schedule Service
+             schedule appointment 
             </a>
 
             <a
@@ -144,7 +143,7 @@ export default function Hero() {
                 hover:scale-[1.03]
               "
             >
-              Our Story
+             Learn more 
             </a>
           </div>
         </div>

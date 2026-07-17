@@ -1,18 +1,18 @@
 import { ArrowUpRight } from "lucide-react";
+import Engine from "../../assets/img/service/herobg.jpg";
 
 export default function HeroSection() {
   return (
     <section
       className="relative flex min-h-[65vh] sm:min-h-[72vh] lg:min-h-[78vh] items-center overflow-hidden"
       style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=80')",
+         backgroundImage: `url(${Engine})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/10" />
 
       {/* Gradient Overlay */}
       <div
@@ -33,7 +33,7 @@ export default function HeroSection() {
 
             <div className="h-[2px] w-12 bg-[#C00000]" />
 
-            <span className="font-inter text-[11px] sm:text-[12px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[11px] sm:text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
               Porsche Specialists
             </span>
 
@@ -41,25 +41,19 @@ export default function HeroSection() {
 
           {/* Heading */}
 
-          <h1 className="font-oswald font-bold uppercase leading-[1.05] tracking-[0.01em] text-white text-[40px] sm:text-[52px] md:text-[42px] lg:text-[45px] xl:text-[50px]">
+          <h1 className="font-oswald font-bold leading-[1.05] tracking-[0.01em] text-white text-[30px] sm:text-[52px] md:text-[30px] lg:text-[30px] xl:text-[30px]">
 
-            Service
-
-            Performance
-
+            Porsche Service Performance .
             <br />
-
-            Motorsport
-
+             Motorsport.
           </h1>
 
           {/* Description */}
 
-          <p className="mt-6 max-w-[600px] font-inter text-[15px] leading-7 text-[#B5B5B5] sm:text-[16px] lg:text-[17px] lg:leading-8">
-            From factory maintenance to championship-level engine
-            building, GTR Motorsport delivers dealership precision,
-            race-proven experience, and craftsmanship built around
-            Porsche excellence.
+          <p className="mt-2 max-w-[600px] font-inter text-[15px] leading-7 text-white sm:text-[16px] lg:text-[17px] lg:leading-8">
+           From routine maintenance and factory diagnostics to engine rebuilding, 
+restoration, and motorsport preparation, GTR Motorsport provides specialized 
+Porsche service backed by more than three decades of experience.
           </p>
 
           {/* Buttons */}
@@ -70,7 +64,7 @@ export default function HeroSection() {
               href="/contact"
               className="inline-flex items-center gap-2 bg-[#C00000] px-7 py-3.5 font-oswald text-[14px] font-semibold uppercase tracking-[0.08em] text-white transition duration-300 hover:bg-[#9D0000]"
             >
-              Schedule Service
+              schedule appointment 
             </a>
 
             <a
@@ -85,7 +79,7 @@ export default function HeroSection() {
 
           {/* Stats */}
 
-          <div className="mt-12 grid grid-cols-3 gap-6 sm:gap-10">
+          {/* <div className="mt-12 grid grid-cols-3 gap-6 sm:gap-10">
 
             <div>
 
@@ -102,11 +96,11 @@ export default function HeroSection() {
             <div>
 
               <h3 className="font-oswald text-[28px] sm:text-[34px] text-[#C00000]">
-                100%
+                Porsche
               </h3>
 
               <p className="mt-1 font-inter text-[11px] sm:text-[12px] uppercase tracking-[0.18em] text-[#9A9A9A]">
-                Porsche Focused
+                Exclusively
               </p>
 
             </div>
@@ -123,7 +117,7 @@ export default function HeroSection() {
 
             </div>
 
-          </div>
+          </div> */}
 
         </div>
 

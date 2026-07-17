@@ -66,7 +66,7 @@ export default function WhatsAppButton() {
       `}</style>
 
       <a
-        href="https://wa.me/31644367777"
+        href="https://wa.me/+19253366470"
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-btn"

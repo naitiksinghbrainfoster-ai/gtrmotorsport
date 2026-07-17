@@ -15,9 +15,9 @@ export default function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
-      <Route path="/gallery" element={<Gallery />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:slug" element={<BlogArticlePage />} />
+      <Route path="/specials" element={<Gallery />} />
+      {/* <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/:slug" element={<BlogArticlePage />} /> */}
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

@@ -10,26 +10,26 @@ import Motorsport1 from "../../assets/img/gallery/Motorsport1.jpeg";
 
 const categories = [
   {
-    title: "Shop Gallery",
-    count: "48 Photos",
+    title: "Inside the Shop",
+    count: "Techs at work, projects in progress, and day-to-day life at GTR",
     image:
       ShopGallery,
   },
   {
     title: "Engine Builds",
-    count: "36 Photos",
+    count: "Rebuilds, assembly, machining, and engine work.",
     image:
       Enginebuilds,
   },
   {
-    title: "Performance Builds",
-    count: "52 Photos",
+    title: "Track Days",
+    count: "Race weekends and some of our own cars on the track",
     image:
       Performancebuilds,
   },
   {
-    title: "Track Events",
-    count: "24 Photos",
+    title: "Featured Porsches",
+    count: "Some of our favorite cars to come through the shop",
     image:
       Trackevents,
   },
@@ -81,7 +81,7 @@ export default function GalleryCategories() {
             Explore Our Work
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[680px] font-inter text-[17px] leading-8 text-[#A8A8A8]">
+          <p className="mx-auto mt-6 max-w-[680px] font-inter text-[17px] leading-8 text-white">
             Browse our workshop, engine builds, customer projects and
             motorsport highlights.
           </p>

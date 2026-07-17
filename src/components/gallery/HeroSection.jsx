@@ -59,8 +59,8 @@ export default function HeroSection() {
           <div className="mb-5 flex items-center gap-3 sm:gap-4">
             <div className="h-[2px] w-8 sm:w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[10px] sm:text-[12px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
-              Porsche Gallery
+            <span className="font-inter text-[22px] sm:text-[22px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
+              Porsche Special
             </span>
           </div>
 
@@ -69,20 +69,18 @@ export default function HeroSection() {
             className="
               font-oswald
               font-bold
-              uppercase
+            
               leading-[1.05]
               text-white
 
-              text-[30px]
-              sm:text-[42px]
-              md:text-[50px]
-              lg:text-[56px]
-              xl:text-[62px]
+              text-[22px]
+              sm:text-[26px]
+              md:text-[30px]
+              lg:text-[36px]
+              xl:text-[42px]
             "
           >
-            Porsche Passion
-            <br />
-            Performance
+           Our Work
           </h1>
 
           {/* Description */}
@@ -97,14 +95,10 @@ export default function HeroSection() {
               sm:text-[17px]
               lg:text-[18px]
               leading-[1.8]
-              text-[#B8B8B8]
+              text-white
             "
           >
-            Discover our collection of Porsche maintenance, engine
-            rebuilding, GT3 & GT4 RS projects, classic 911 restorations,
-            performance upgrades, Cup cars and motorsport preparation.
-            Every image represents our commitment to precision,
-            craftsmanship and engineering excellence.
+           Explore a collection of Porsche projects completed by GTR Motorsport, from routine maintenance and diagnostics to complete engine rebuilds, performance upgrades, restorations, and track days.
           </p>
 
           {/* Buttons */}
@@ -133,7 +127,7 @@ export default function HeroSection() {
                 hover:scale-[1.03]
               "
             >
-              Explore Porsche Builds
+              View Projects
             </a>
 
             <a
@@ -162,13 +156,13 @@ export default function HeroSection() {
                 hover:scale-[1.03]
               "
             >
-              Schedule Porsche Service
+          schedule appointment 
               <ArrowRight size={18} />
             </a>
           </div>
 
           {/* Stats */}
-          <div className="mt-14 grid grid-cols-2 gap-8 sm:gap-10 md:grid-cols-4 max-w-[760px]">
+          {/* <div className="mt-14 grid grid-cols-2 gap-8 sm:gap-10 md:grid-cols-4 max-w-[760px]">
             <div>
               <Wrench size={28} className="mb-4 text-[#C00000]" />
 
@@ -216,7 +210,7 @@ export default function HeroSection() {
                 Porsche Focus
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

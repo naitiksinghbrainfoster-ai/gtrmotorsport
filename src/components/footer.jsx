@@ -24,16 +24,16 @@ export default function Footer() {
   className="w-[260px] h-auto object-contain"
 />
 
-            <p className="mt-10 max-w-[650px] font-inter text-[20px] leading-[1.6] text-[#9C9C9C]">
-              Porsche service, performance and motorsport specialists.
-              Driven by excellence, guided by faith, built for
-              performance.
+            <p className="mt-10 max-w-[650px] font-inter text-[20px] leading-[1.6] text-white">
+             GTR Motorsport is the Porsche-exclusive division of Autowerks European, 
+providing specialized maintenance, diagnostics, performance, restoration, and 
+motorsport support for Porsche owners
             </p>
 
-            <p className="mt-8 font-inter text-[18px] italic leading-[1.7] text-[#777777]">
+            {/* <p className="mt-8 font-inter text-[18px] italic leading-[1.7] text-[#777777]">
               “Whatever you do, work at it with all your heart, as
               working for the Lord.” — Colossians 3:23
-            </p>
+            </p> */}
 
           </div>
 
@@ -44,54 +44,70 @@ export default function Footer() {
               Navigate
             </h4>
 
-            <ul className="mt-10 space-y-6">
+           <ul className="mt-10 space-y-6">
+  <li>
+    <a
+      href="/services"
+      className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
+    >
+      Factory Maintenance
+    </a>
+  </li>
 
-              <li>
-                <a
-                  href="/"
-                  className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
-                >
-                  Home
-                </a>
-              </li>
+  <li>
+    <a
+      href="/services"
+      className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
+    >
+      PIWIS Diagnostics
+    </a>
+  </li>
 
-              <li>
-                <a
-                  href="/about"
-                  className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
-                >
-                  About
-                </a>
-              </li>
+  <li>
+    <a
+      href="/services"
+      className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
+    >
+      Engine Service & Repair
+    </a>
+  </li>
 
-              <li>
-                <a
-                  href="/services"
-                  className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
-                >
-                  Services
-                </a>
-              </li>
+  <li>
+    <a
+      href="/services"
+      className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
+    >
+      Performance Upgrades
+    </a>
+  </li>
 
-              <li>
-                <a
-                  href="/gallery"
-                  className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
-                >
-                  Gallery
-                </a>
-              </li>
+  <li>
+    <a
+      href="/services"
+      className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
+    >
+      Suspension Setup & Alignment
+    </a>
+  </li>
 
-              <li>
-                <a
-                  href="/contact"
-                  className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
-                >
-                  Contact
-                </a>
-              </li>
+  <li>
+    <a
+      href="/services"
+      className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
+    >
+      Track Preparation
+    </a>
+  </li>
 
-            </ul>
+  <li>
+    <a
+      href="/services"
+      className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
+    >
+      Engine Rebuilding
+    </a>
+  </li>
+</ul>
 
           </div>
 
@@ -99,7 +115,7 @@ export default function Footer() {
           <div>
 
             <h4 className="font-oswald text-[20px] font-semibold uppercase tracking-[1px] text-white">
-              Visit The Shop
+              Visit Our Shop
             </h4>
 
             <div className="mt-10 space-y-8">
@@ -113,9 +129,7 @@ export default function Footer() {
                 />
 
                 <p className="font-inter text-[18px] leading-[1.6] text-[#9B9B9B]">
-                  Autowerks European Inc.
-                  <br />
-                  Porsche Division
+                  GTR Motorsport   2157 San Ramon Valley Blvd , San Ramon CA 94583
                 </p>
 
               </div>
@@ -129,10 +143,10 @@ export default function Footer() {
                 />
 
                 <a
-                  href="tel:+15559119119"
+                  href="tel:+19253366470"
                   className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
                 >
-                  (555) 911-9119
+                  +1 (925) 336-6470
                 </a>
 
               </div>

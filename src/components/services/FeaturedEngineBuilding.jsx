@@ -1,3 +1,4 @@
+import EngineService from "../../assets/img/service/engineservice1.jpg";
 import {
   CheckCircle2,
   ArrowRight,
@@ -6,6 +7,7 @@ import {
   Cpu,
   ShieldCheck,
 } from "lucide-react";
+
 
 const features = [
   "Complete Engine Rebuilds",
@@ -37,7 +39,7 @@ const highlights = [
 
 export default function FeaturedEngineBuilding() {
   return (
-    <section className="bg-[#050505] py-16 sm:py-20 lg:py-32">
+    <section className="bg-[#050505] py-16 sm:py-10 lg:py-12">
       <div
         className="
           mx-auto
@@ -58,7 +60,7 @@ export default function FeaturedEngineBuilding() {
           <div className="mb-6 sm:mb-8 flex items-center gap-3 sm:gap-4">
             <div className="h-[2px] w-8 sm:w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[10px] sm:text-[13px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[22px] sm:text-[22px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
               Featured Service
             </span>
           </div>
@@ -72,16 +74,16 @@ export default function FeaturedEngineBuilding() {
               leading-[1.05]
               text-white
               text-[34px]
-              sm:text-[46px]
-              md:text-[56px]
-              lg:text-[68px]
+              sm:text-[40px]
+              md:text-[40px]
+              lg:text-[48px]
             "
           >
-            Porsche
-            <br />
+            Porsche  
+           
             Engine
             <br />
-            Building
+            Services
           </h2>
 
           {/* Description */}
@@ -97,20 +99,46 @@ export default function FeaturedEngineBuilding() {
               lg:text-[18px]
               leading-7
               sm:leading-8
-              lg:leading-9
-              text-[#A9A9A9]
+              lg:leading-8
+              text-white
             "
           >
-            Every Porsche engine is built with patience,
-            precision and uncompromising attention to detail.
-            Whether restoring factory performance or creating
-            a motorsport-ready engine, every component is
-            measured, inspected and assembled to the highest
-            possible standard.
+           GTR Motorsport specializes in rebuilding, restoring, and servicing Porsche engines 
+across multiple generations. From classic air-cooled models to modern GT and 
+Turbo platforms, every engine is built and serviced with the precision these 
+vehicles demand.
+         
+          
+          </p>
+
+           <p
+            className="
+              mt-6
+              sm:mt-8
+              lg:mt-2
+              max-w-[700px]
+              font-inter
+              text-[15px]
+              sm:text-[17px]
+              lg:text-[18px]
+              leading-7
+              sm:leading-8
+              lg:leading-8
+              text-white
+            "
+          >
+           Our capabilities include complete engine rebuilds, cylinder head restoration, IMS 
+bearing solutions, timing component service, oil leak repair, cooling system 
+repairs, and custom engine builds tailored to your vehicle and driving goals. We 
+also perform mechanical restoration of classic Porsche engines and related 
+components, preserving the reliability and character of these iconic cars.
+Whether you're maintaining a street-driven Porsche, restoring a classic, or 
+preparing a dedicated track car, our team delivers specialized engine services 
+backed by decades of Porsche experience.
           </p>
 
           {/* Features */}
-          <div className="mt-10 grid gap-4 sm:grid-cols-2">
+          {/* <div className="mt-10 grid gap-4 sm:grid-cols-2">
             {features.map((item) => (
               <div
                 key={item}
@@ -126,7 +154,7 @@ export default function FeaturedEngineBuilding() {
                 </span>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Button */}
           <a
@@ -155,7 +183,7 @@ export default function FeaturedEngineBuilding() {
               hover:scale-[1.03]
             "
           >
-            Schedule Engine Build
+            schedule appointment 
 
             <ArrowRight size={18} />
           </a>
@@ -164,7 +192,7 @@ export default function FeaturedEngineBuilding() {
         {/* RIGHT START */}
         <div className="relative overflow-hidden rounded-sm">
                     <img
-            src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1600&auto=format&fit=crop&q=80"
+            src={EngineService}
             alt="Porsche Engine Building"
             className="
               h-[420px]
@@ -177,10 +205,10 @@ export default function FeaturedEngineBuilding() {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
+          <div className="absolute inset-0 " />
 
           {/* Floating Card */}
-          <div
+          {/* <div
             className="
               absolute
               bottom-4
@@ -257,7 +285,7 @@ export default function FeaturedEngineBuilding() {
     );
   })}
 </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

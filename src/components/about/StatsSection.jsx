@@ -44,7 +44,7 @@ export default function StatsSection() {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/80"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
 
       <div
         className="absolute inset-0"
@@ -73,7 +73,7 @@ export default function StatsSection() {
             Built On Experience
           </h2>
 
-          <p className="mx-auto mt-4 max-w-[760px] font-inter text-[18px] leading-9 text-[#A9A9A9]">
+          <p className="mx-auto mt-4 max-w-[760px] font-inter text-[18px] leading-9 text-white">
             Every Porsche tells a story. Every project reflects decades of
             craftsmanship, precision engineering and a commitment to
             excellence.
@@ -113,7 +113,7 @@ export default function StatsSection() {
                   {item.title}
                 </h4>
 
-                <p className="mt-5 font-inter text-[16px] leading-8 text-[#B5B5B5]">
+                <p className="mt-5 font-inter text-[16px] leading-8 text-white">
                   {item.desc}
                 </p>
 

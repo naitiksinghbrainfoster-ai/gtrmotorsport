@@ -10,7 +10,7 @@ export default function MissionSection() {
           <div className="mb-8 md:mb-10 flex items-center gap-4">
             <div className="h-px w-12 bg-[#D50000]" />
 
-            <span className="font-inter text-[11px] sm:text-[12px] md:text-[13px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
+            <span className="font-inter text-[22px] sm:text-[22px] md:text-[22px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
               Our Mission
             </span>
           </div>
@@ -58,7 +58,7 @@ export default function MissionSection() {
         {/* Right */}
         <div className="max-w-full lg:max-w-[860px]">
 
-          <p className="font-inter text-[16px] md:text-[18px] leading-8 text-[#A7A7A7]">
+          <p className="font-inter text-[16px] md:text-[18px] leading-8 text-white">
             GTR Motorsport is the dedicated Porsche performance and
             motorsport division and sister company of Autowerks European
             Inc. Founded by Paul Chahal after more than three decades
@@ -66,7 +66,7 @@ export default function MissionSection() {
             passion and excellence in everything we do.
           </p>
 
-          <p className="mt-8 md:mt-10 font-inter text-[17px] md:text-[20px] leading-8 md:leading-9 text-[#A7A7A7]">
+          <p className="mt-8 md:mt-10 font-inter text-[17px] md:text-[20px] leading-8 md:leading-9 text-white">
             Every project we touch is treated with honesty, integrity and
             meticulous attention to detail, the same way we'd want our own
             vehicle handled.

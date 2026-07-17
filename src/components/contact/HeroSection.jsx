@@ -1,5 +1,5 @@
 import { Phone, Calendar, ArrowRight } from "lucide-react";
-import Contacthero from "../../assets/img/contact/contacthero.jpeg";
+import Contacthero from "../../assets/img/contact/contacthero.png";
 
 export default function HeroSection() {
   return (
@@ -12,7 +12,7 @@ export default function HeroSection() {
       }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/35" />
+      <div className="absolute inset-0" />
 
       <div
         className="absolute inset-0"
@@ -30,22 +30,22 @@ export default function HeroSection() {
           {/* Label */}
           <div className="flex items-center gap-4">
             <div className="h-px w-14 shrink-0 bg-[#C00000]" />
-            <span className="font-inter text-[12px] font-semibold uppercase tracking-[0.35em] text-[#C00000] sm:text-[13px]">
+            <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000] sm:text-[22px]">
               Contact GTR Motorsport
             </span>
           </div>
 
           {/* Heading */}
-          <h1 className="mt-7 font-oswald text-[36px] font-semibold uppercase leading-[1.05] text-white sm:text-[46px] sm:leading-[1] lg:text-[58px] lg:leading-[0.98]">
-            Have Questions
+          <h1 className="mt-4 font-oswald text-[26px] font-semibold  leading-[1.05] text-white sm:text-[36px] sm:leading-[1] lg:text-[38px] lg:leading-[0.98]">
+        
+             Have Questions About Your 
+            
             <br />
-            About Your
-            <br />
-            Porsche?
+          Porsche?
           </h1>
 
           {/* Description */}
-          <p className="mt-6 max-w-[560px] font-inter text-[16px] leading-8 text-[#B8B8B8] sm:mt-7 sm:text-[18px] sm:leading-9">
+          <p className="mt-2 max-w-[560px] font-inter text-[16px] leading-8 text-white sm:text-[18px] sm:leading-9">
             Whether you need routine maintenance, diagnostics, performance
             upgrades or motorsport preparation, our Porsche specialists are
             ready to help.
@@ -66,13 +66,13 @@ export default function HeroSection() {
               className="inline-flex items-center justify-center gap-3 border border-white/20 px-8 py-4 font-oswald text-[14px] uppercase tracking-[0.18em] text-white transition duration-300 hover:border-[#C00000] hover:bg-white/5 sm:px-10 sm:py-5 sm:text-[15px]"
             >
               <Calendar size={18} />
-              Book Service
+              Book appointment 
               <ArrowRight size={18} />
             </a>
           </div>
 
           {/* Bottom Text */}
-          <div className="mt-12 border-l-2 border-[#C00000] pl-5 sm:mt-16 sm:pl-6">
+          {/* <div className="mt-12 border-l-2 border-[#C00000] pl-5 sm:mt-16 sm:pl-6">
             <p className="font-oswald text-[22px] uppercase leading-tight text-white sm:text-[28px]">
               Experience The GTR Difference.
             </p>
@@ -80,7 +80,7 @@ export default function HeroSection() {
               Call or text us today to discuss your Porsche service, repair,
               engine build or track preparation.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 

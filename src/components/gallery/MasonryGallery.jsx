@@ -174,7 +174,7 @@ export default function MasonryGallery() {
             Has A Story.
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[700px] font-inter text-[17px] leading-8 text-[#A8A8A8]">
+          <p className="mx-auto mt-6 max-w-[700px] font-inter text-[17px] leading-8 text-white">
             Browse our latest workshop projects, engine builds,
             customer cars and motorsport moments.
           </p>
@@ -293,20 +293,20 @@ export default function MasonryGallery() {
 
                 {/* Bottom CTA */}
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
           className="relative mt-24 overflow-hidden rounded-sm border border-[#1B1B1B] bg-[#080808]"
         >
-          {/* Background Glow */}
+     
 
           <div className="absolute -right-20 -top-20 h-[260px] w-[260px] rounded-full bg-[#C00000]/20 blur-[120px]" />
 
           <div className="relative z-10 grid gap-12 px-8 py-14 lg:grid-cols-[1fr_auto] lg:px-16">
 
-            {/* Left */}
+          
 
             <div>
 
@@ -335,7 +335,7 @@ export default function MasonryGallery() {
 
             </div>
 
-            {/* Right */}
+         
 
             <div className="flex flex-col justify-center">
 
@@ -353,7 +353,6 @@ export default function MasonryGallery() {
 
           </div>
 
-          {/* Bottom Stats */}
 
           <div className="border-t border-[#1B1B1B]">
 
@@ -397,7 +396,7 @@ export default function MasonryGallery() {
 
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>

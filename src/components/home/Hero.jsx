@@ -120,9 +120,9 @@ export default function Hero() {
             fontWeight: 400,
             fontSize: "clamp(1rem, 1.6vw, 1.15rem)",
             lineHeight: 1.6,
-            color: "#c9c9c9",
+            color: "#fff",
             maxWidth: "480px",
-            margin: "1.5rem 0 0 1.4rem",
+            margin: "0.2rem 0 0 1.2rem",
             animationDelay: "0.3s",
           }}
         >
@@ -151,7 +151,7 @@ export default function Hero() {
             animationDelay: "0.5s",
           }}
         >
-          Schedule Service
+         Book Service
           <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
@@ -200,7 +200,7 @@ export default function Hero() {
                   fontWeight: 500,
                   letterSpacing: "0.1em",
                   textTransform: "uppercase",
-                  color: "#9a9a9a",
+                  color: "#fff",
                   marginTop: "0.4rem",
                 }}
               >

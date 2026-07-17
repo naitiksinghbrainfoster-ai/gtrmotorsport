@@ -27,24 +27,23 @@ export default function EngineSection() {
           <div className="max-w-[640px]">
 
             {/* Section Label */}
-            <div className="mb-10 flex items-center gap-4">
+            <div className="mb-8 flex items-center gap-4">
               <div className="h-px w-12 bg-[#D50000]" />
-              <span className="font-inter text-[13px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
-                Engine Building
+              <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
+               ENGINE REBUILDING
               </span>
             </div>
 
             {/* Heading */}
             <h2 className="font-oswald text-[34px] font-bold uppercase leading-[1.02] tracking-[0.5px] text-white xl:text-[36px]">
-              Built By Hand.
-              <br />
-              Measured To The
-              <br />
-              Micron.
+              Precision Without 
+              
+              Compromise.
+              
             </h2>
 
             {/* Paragraph */}
-            <p className="mt-10 font-inter text-[18px] leading-[1.7] text-[#A7A7A7]">
+            <p className="mt-10 font-inter text-[18px] leading-[1.7] text-white">
               From IMS inspections on classic Mezgers to ground-up
               motorsport builds, our engine program is where mechanical
               engineering meets craftsmanship. We document every clearance, 
@@ -69,7 +68,7 @@ export default function EngineSection() {
 
             {/* Button */}
             <button className="group mt-14 inline-flex items-center gap-3 border border-[#404040] px-6 py-3 font-inter text-[12px] font-semibold uppercase tracking-[0.24em] text-white transition hover:border-[#D50000] hover:bg-[#D50000]">
-              Explore Engine Program
+              schedule appointment 
 
               <ArrowUpRight
                 size={18}

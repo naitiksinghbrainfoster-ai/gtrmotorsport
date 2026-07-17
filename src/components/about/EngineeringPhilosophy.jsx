@@ -82,7 +82,7 @@ export default function EngineeringPhilosophy() {
             Every Porsche Deserves Excellence.
           </h2>
 
-          <p className="mt-5 font-inter text-[16px] leading-7 text-[#A5A5A5]">
+          <p className="mt-5 font-inter text-[16px] leading-7 text-white">
             Every project at GTR Motorsport follows the same philosophy:
             diagnose accurately, engineer carefully, build meticulously and
             never compromise on quality. Our approach combines decades of
@@ -125,7 +125,7 @@ export default function EngineeringPhilosophy() {
 
                     </div>
 
-                    <p className="mt-2 font-inter text-[15px] leading-7 text-[#A8A8A8]">
+                    <p className="mt-2 font-inter text-[15px] leading-7 text-white">
                       {item.text}
                     </p>
 

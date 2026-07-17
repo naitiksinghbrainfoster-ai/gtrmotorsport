@@ -3,7 +3,7 @@ import ctaBg from "../../assets/img/home/shop-Du0aRixe.jpg";
 
 export default function CTASection() {
   return (
-    <section className="relative overflow-hidden border-y border-[#1B1B1B]">
+    <section className="relative overflow-hidden border-y border-[#1B1B1B] ">
       {/* Background */}
       <img
         src={ctaBg}
@@ -12,7 +12,7 @@ export default function CTASection() {
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/75" />
+      <div className="absolute inset-0 bg-black/15" />
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-black/45" />
 
       {/* Content */}
@@ -26,11 +26,7 @@ export default function CTASection() {
           </h2>
 
           {/* Paragraph */}
-          <p className="mt-10 max-w-[820px] font-inter text-[20px] leading-[1.8] text-[#A8A8A8]">
-            Call or text us today and experience the GTR difference.
-            Whether you're prepping for a track day or planning your next
-            build, we're here to help.
-          </p>
+         
 
           {/* Buttons */}
           <div className="mt-14 flex flex-col gap-5 sm:flex-row">
@@ -48,7 +44,7 @@ export default function CTASection() {
               href="/contact"
               className="group inline-flex h-[52px] items-center justify-center gap-4 border border-[#5A5A5A] bg-black/20 px-6 font-inter text-[14px] font-semibold uppercase tracking-[0.1em] text-white transition hover:border-[#D50000] hover:bg-[#D50000]"
             >
-              Request an Appointment
+              Schedule Appointment
 
               <ArrowUpRight
                 size={20}

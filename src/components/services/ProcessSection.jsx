@@ -10,51 +10,51 @@ import {
 const process = [
   {
     number: "01",
-    title: "Book Service",
+    title: "Schedule Appointment",
     description:
-      "Choose a convenient appointment and tell us about your Porsche.",
+      "Tell us about your Porsche and your concerns so we can prepare for your visit.",
     icon: CalendarCheck,
   },
   {
     number: "02",
-    title: "Inspection",
+    title: "Vehicle Inspection",
     description:
-      "A comprehensive inspection and factory-level diagnostic evaluation.",
+      "We perform a comprehensive inspection using Porsche-specific diagnostic equipment to accurately assess your vehicle.",
     icon: Search,
   },
   {
     number: "03",
-    title: "Detailed Report",
+    title: "Service Plan",
     description:
-      "We explain our findings and recommend only the work your Porsche truly needs.",
+      "We review our findings, explain your options, and provide transparent recommendations before any work begins",
     icon: ClipboardCheck,
   },
   {
     number: "04",
-    title: "Precision Repair",
+    title: "Specialized Service",
     description:
-      "Maintenance, performance upgrades or engine work completed with meticulous craftsmanship.",
+      "Approved maintenance, repairs, performance upgrades, or engine work are completed with precision and attention to detail",
     icon: Wrench,
   },
   {
     number: "05",
-    title: "Quality Testing",
+    title: "Final Inspection",
     description:
-      "Every vehicle is inspected, tested and verified before delivery.",
+      "Every vehicle is thoroughly inspected, tested, and verified to ensure our standards are met before delivery",
     icon: Gauge,
   },
   {
     number: "06",
-    title: "Ready To Drive",
+    title: "Vehicle Delivery",
     description:
-      "Your Porsche leaves our workshop performing at its absolute best.",
+      "Your Porsche is returned ready to drive with confidence that the work has been completed to the highest standard.",
     icon: Car,
   },
 ];
 
 export default function ProcessSection() {
   return (
-    <section className="relative overflow-hidden bg-[#050505] py-24 lg:py-32">
+    <section className="relative overflow-hidden bg-[#050505] py-14 lg:py-12">
 
       {/* Background Glow */}
 
@@ -70,23 +70,24 @@ export default function ProcessSection() {
 
             <div className="h-px w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[13px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
-              OUR PROCESS
+            <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+              Our Service Process 
             </span>
 
             <div className="h-px w-14 bg-[#C00000]" />
 
           </div>
 
-          <h2 className="font-oswald text-[34px] font-bold uppercase leading-none text-white md:text-[34px]">
+          <h2 className="font-oswald text-[30px] font-bold uppercase leading-none text-white md:text-[30px]">
             From Inspection
             
             To Perfection
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-[#A8A8A8]">
-            Every Porsche follows the same proven process designed to
-            deliver transparency, precision and complete confidence.
+          <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-white">
+            Every Porsche receives the same careful attention, from the initial inspection to 
+final delivery. Our process is designed to provide clear communication, accurate 
+diagnostics, and specialized Porsche service every step of the way.
           </p>
 
         </div>
@@ -123,25 +124,25 @@ export default function ProcessSection() {
 
                   {/* Step */}
 
-                  <p className="mt-8 font-oswald text-[64px] leading-none text-[#1B1B1B] transition duration-500 group-hover:text-[#3A0000]">
+                  <p className="mt-6 font-oswald text-[64px] leading-none text-[#3A3A3A] transition duration-500 group-hover:text-[#5A0000]">
                     {item.number}
                   </p>
 
                   {/* Title */}
 
-                  <h3 className="mt-3 font-oswald text-[22px] uppercase text-white">
+                  <h3 className="mt-2 font-oswald text-[22px] uppercase text-white">
                     {item.title}
                   </h3>
 
                   {/* Text */}
 
-                  <p className="mt-5 font-inter text-[16px] leading-8 text-[#9F9F9F]">
+                  <p className="mt-4 font-inter text-[16px] leading-8 text-white">
                     {item.description}
                   </p>
 
                   {/* Red Line */}
 
-                  <div className="mx-auto mt-8 h-[2px] w-12 bg-[#C00000] transition-all duration-500 group-hover:w-24" />
+                  <div className="mx-auto mt-6 h-[2px] w-12 bg-[#C00000] opacity-0 transition-all duration-500 group-hover:w-24 group-hover:opacity-100" />
 
                 </div>
               );

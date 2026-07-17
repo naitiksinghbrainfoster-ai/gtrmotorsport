@@ -12,37 +12,37 @@ const features = [
     icon: ShieldCheck,
     title: "30+ Years Experience",
     description:
-      "More than three decades specializing in European automobiles and Porsche engineering.",
+      "Decades of European automotive experience.",
   },
   {
     icon: Cpu,
-    title: "Factory PIWIS Diagnostics",
+    title: "Porsche Exclusively",
     description:
-      "Advanced factory-level Porsche diagnostic equipment for accurate fault detection.",
+      "Dedicated to one marque, one standard.",
   },
   {
     icon: Gauge,
-    title: "Porsche Specialists",
+    title: "Former Porsche Technicians",
     description:
-      "Our workshop focuses exclusively on Porsche service, performance and motorsport.",
+      "Factory-trained experience with Porsche systems.",
   },
   {
     icon: Trophy,
-    title: "Track Proven",
+    title: "Track Experience",
     description:
-      "From track preparation to race support, every setup is engineered for performance.",
+      "Real-world preparation for HPDE and motorsport.",
   },
   {
     icon: HeartHandshake,
-    title: "Integrity First",
+    title: "Transparent Communication",
     description:
-      "Honest recommendations, transparent communication and craftsmanship you can trust.",
+      "Honest recommendations and no unnecessary repairs.",
   },
   {
     icon: Wrench,
-    title: "Performance Engineering",
+    title: "Detail Focused",
     description:
-      "Engine builds, suspension tuning and performance upgrades tailored to your Porsche.",
+      "Meticulous workmanship from diagnosis to delivery.",
   },
 ];
 
@@ -59,7 +59,7 @@ export default function WhyChooseSection() {
 
             <div className="h-px w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[13px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
               Why Choose GTR
             </span>
 
@@ -72,11 +72,11 @@ export default function WhyChooseSection() {
             GTR Difference
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-[#A8A8A8]">
+          {/* <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-[#A8A8A8]">
             Every Porsche receives meticulous attention, honest advice and
             race-proven expertise backed by over three decades of European
             automotive experience.
-          </p>
+          </p> */}
 
         </div>
 
@@ -111,7 +111,7 @@ export default function WhyChooseSection() {
 
                 {/* Description */}
 
-                <p className="mt-6 font-inter text-[17px] leading-8 text-[#A8A8A8]">
+                <p className="mt-6 font-inter text-[17px] leading-8 text-white">
                   {item.description}
                 </p>
 
@@ -133,15 +133,21 @@ export default function WhyChooseSection() {
 
             <div>
 
-              <p className="font-inter text-[13px] uppercase tracking-[0.35em] text-[#C00000]">
+              <p className="font-inter text-[22px] uppercase tracking-[0.35em] text-[#C00000]">
                 OUR COMMITMENT
               </p>
 
               <h3 className="mt-4 font-oswald text-[34px] font-bold uppercase text-white md:text-[48px]">
-                Driven By Excellence.
+                HONEST WORK
                 <br />
-                Guided By Faith.
+                EXCEPTIONAL PORSCHE CARE.
               </h3>
+
+             {/* <p className="mx-auto mt-5 max-w-[760px] font-inter text-[18px] leading-9 text-[#A8A8A8]">
+            Every Porsche receives meticulous attention, honest advice and
+            race-proven expertise backed by over three decades of European
+            automotive experience.
+          </p> */}
 
             </div>
 
@@ -149,7 +155,7 @@ export default function WhyChooseSection() {
               href="/contact"
               className="border border-[#C00000] px-10 py-5 font-oswald text-[15px] uppercase tracking-[0.15em] text-white transition duration-300 hover:bg-[#C00000]"
             >
-              Schedule Service
+              Book appointment 
             </a>
 
           </div>

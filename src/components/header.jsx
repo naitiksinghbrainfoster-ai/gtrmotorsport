@@ -7,8 +7,8 @@ const navItems = [
   { name: "HOME", path: "/" },
   { name: "ABOUT", path: "/about" },
   { name: "SERVICES", path: "/services" },
-  { name: "GALLERY", path: "/gallery" },
-  { name: "BLOG", path: "/blog" },
+  { name: "SPECIALS", path: "/specials" },
+  // { name: "BLOG", path: "/blog" },
   { name: "CONTACT", path: "/contact" },
 ];
 
@@ -57,7 +57,7 @@ export default function Header() {
           to="/contact"
           className="hidden lg:flex h-12 px-8 items-center bg-[#C00000] hover:bg-red-700 transition duration-300 text-white text-sm font-bold tracking-wide uppercase"
         >
-          Schedule Service
+          schedule appointment 
         </NavLink>
 
         {/* Mobile Icon */}
@@ -100,7 +100,7 @@ export default function Header() {
                 to="/contact"
                 className="h-12 flex justify-center items-center bg-[#C00000] text-white uppercase tracking-wider font-semibold"
               >
-                Schedule Service
+                schedule appointment 
               </NavLink>
 
             </div>

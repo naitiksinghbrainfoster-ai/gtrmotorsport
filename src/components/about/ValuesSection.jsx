@@ -61,7 +61,7 @@ export default function ValuesSection() {
             What Drives Us
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-[#9A9A9A]">
+          <p className="mx-auto mt-8 max-w-[760px] font-inter text-[18px] leading-9 text-white">
             Every decision we make is guided by these core values. They define
             who we are, how we serve our customers and why GTR Motorsport
             exists.
@@ -104,7 +104,7 @@ export default function ValuesSection() {
 
                 {/* Text */}
 
-                <p className="mt-6 font-inter text-[17px] leading-8 text-[#A2A2A2]">
+                <p className="mt-6 font-inter text-[17px] leading-8 text-white">
                   {item.text}
                 </p>
 
