@@ -43,7 +43,7 @@ const services = [
     icon: Zap,
     image: PERFORMANCEUPGRADES,
     description:
-      "Enhance your Porsche with carefully engineered performance upgrades, including suspension, exhaust, intake, ECU tuning, braking, and chassis improvements tailored to your driving style and performance goals",
+      "Enhance your Porsche with carefully engineered performance upgrades, including suspension, exhaust, intake, ECU tuning, braking, and chassis improvements tailored to your driving style and performance goals.",
   },
   {
     title: "Suspension Setup & Alignment",
@@ -182,7 +182,7 @@ export default function ServicesGridSection() {
           <div className="mb-20 text-center">
             <div className="mb-6 flex items-center justify-center gap-4">
               <div className="h-px w-14 bg-[#C00000]" />
-              <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+              <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
                 OUR SERVICES
               </span>
               <div className="h-px w-14 bg-[#C00000]" />

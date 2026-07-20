@@ -32,11 +32,11 @@ export default function CTASection() {
           <div className="mt-14 flex flex-col gap-5 sm:flex-row">
             {/* Phone Button */}
             <a
-              href="tel:+15559119119"
+              href="tel:+19253366470"
               className="inline-flex h-[52px] items-center justify-center gap-4 bg-[#D50000] px-6 font-inter text-[14px] font-semibold text-white transition hover:bg-[#B30000]"
             >
               <Phone size={20} />
-              (555) 911-9119
+              (925) 336-6470
             </a>
 
             {/* Appointment */}

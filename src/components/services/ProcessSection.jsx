@@ -26,21 +26,21 @@ const process = [
     number: "03",
     title: "Service Plan",
     description:
-      "We review our findings, explain your options, and provide transparent recommendations before any work begins",
+      "We review our findings, explain your options, and provide transparent recommendations before any work begins.",
     icon: ClipboardCheck,
   },
   {
     number: "04",
     title: "Specialized Service",
     description:
-      "Approved maintenance, repairs, performance upgrades, or engine work are completed with precision and attention to detail",
+      "Approved maintenance, repairs, performance upgrades, or engine work are completed with precision and attention to detail.",
     icon: Wrench,
   },
   {
     number: "05",
     title: "Final Inspection",
     description:
-      "Every vehicle is thoroughly inspected, tested, and verified to ensure our standards are met before delivery",
+      "Every vehicle is thoroughly inspected, tested, and verified to ensure our standards are met before delivery.",
     icon: Gauge,
   },
   {
@@ -70,7 +70,7 @@ export default function ProcessSection() {
 
             <div className="h-px w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
               Our Service Process 
             </span>
 
@@ -78,7 +78,7 @@ export default function ProcessSection() {
 
           </div>
 
-          <h2 className="font-oswald text-[30px] font-bold uppercase leading-none text-white md:text-[30px]">
+          <h2 className="font-oswald text-[30px] font-bold uppercase leading-none text-white md:text-[38px]">
             From Inspection
             
             To Perfection

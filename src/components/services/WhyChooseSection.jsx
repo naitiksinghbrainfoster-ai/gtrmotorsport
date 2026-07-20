@@ -59,7 +59,7 @@ export default function WhyChooseSection() {
 
             <div className="h-px w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
               Why Choose GTR
             </span>
 
@@ -67,7 +67,7 @@ export default function WhyChooseSection() {
 
           </div>
 
-          <h2 className="font-oswald text-[30px] font-bold uppercase text-white md:text-[32px]">
+          <h2 className="font-oswald text-[30px] font-bold uppercase text-white md:text-[38px]">
             Experience The
             GTR Difference
           </h2>
@@ -133,7 +133,7 @@ export default function WhyChooseSection() {
 
             <div>
 
-              <p className="font-inter text-[22px] uppercase tracking-[0.35em] text-[#C00000]">
+              <p className="font-inter text-[16px] uppercase tracking-[0.35em] text-[#C00000]">
                 OUR COMMITMENT
               </p>
 

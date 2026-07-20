@@ -59,7 +59,7 @@ export default function HeroSection() {
           <div className="mb-5 flex items-center gap-3 sm:gap-4">
             <div className="h-[2px] w-8 sm:w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[22px] sm:text-[22px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[16px] sm:text-[16px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
               Porsche Special
             </span>
           </div>
@@ -72,12 +72,12 @@ export default function HeroSection() {
             
               leading-[1.05]
               text-white
-
+                uppercase
               text-[22px]
               sm:text-[26px]
               md:text-[30px]
               lg:text-[36px]
-              xl:text-[42px]
+              xl:text-[48px]
             "
           >
            Our Work

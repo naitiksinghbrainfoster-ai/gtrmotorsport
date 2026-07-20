@@ -30,13 +30,13 @@ export default function HeroSection() {
           {/* Label */}
           <div className="flex items-center gap-4">
             <div className="h-px w-14 shrink-0 bg-[#C00000]" />
-            <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000] sm:text-[22px]">
+            <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.35em] text-[#C00000] sm:text-[16px]">
               Contact GTR Motorsport
             </span>
           </div>
 
           {/* Heading */}
-          <h1 className="mt-4 font-oswald text-[26px] font-semibold  leading-[1.05] text-white sm:text-[36px] sm:leading-[1] lg:text-[38px] lg:leading-[0.98]">
+          <h1 className="mt-4 font-oswald text-[30px] font-semibold uppercase leading-[1.05] text-white sm:text-[36px] sm:leading-[1] lg:text-[38px] lg:leading-[0.98]">
         
              Have Questions About Your 
             
@@ -54,7 +54,7 @@ export default function HeroSection() {
           {/* Buttons */}
           <div className="mt-9 flex flex-wrap items-center gap-4 sm:mt-11 sm:gap-5">
             <a
-              href="tel:+15559119119"
+              href="tel:+19253366470"
               className="inline-flex items-center justify-center gap-3 bg-[#C00000] px-8 py-4 font-oswald text-[14px] uppercase tracking-[0.18em] text-white transition duration-300 hover:bg-[#980000] sm:px-10 sm:py-5 sm:text-[15px]"
             >
               <Phone size={18} />

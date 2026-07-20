@@ -33,7 +33,7 @@ export default function HeroSection() {
 
             <div className="h-[2px] w-12 bg-[#C00000]" />
 
-            <span className="font-inter text-[11px] sm:text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[11px] sm:text-[16px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
               Porsche Specialists
             </span>
 
@@ -41,7 +41,7 @@ export default function HeroSection() {
 
           {/* Heading */}
 
-          <h1 className="font-oswald font-bold leading-[1.05] tracking-[0.01em] text-white text-[30px] sm:text-[52px] md:text-[30px] lg:text-[30px] xl:text-[30px]">
+          <h1 className="font-oswald font-bold uppercase leading-[1.05] tracking-[0.01em] text-white text-[30px] sm:text-[30px] md:text-[38px] lg:text-[38px] xl:text-[38px]">
 
             Porsche Service Performance .
             <br />

@@ -27,7 +27,7 @@ export default function Footer() {
             <p className="mt-10 max-w-[650px] font-inter text-[20px] leading-[1.6] text-white">
              GTR Motorsport is the Porsche-exclusive division of Autowerks European, 
 providing specialized maintenance, diagnostics, performance, restoration, and 
-motorsport support for Porsche owners
+motorsport support for Porsche owners.
             </p>
 
             {/* <p className="mt-8 font-inter text-[18px] italic leading-[1.7] text-[#777777]">
@@ -160,10 +160,11 @@ motorsport support for Porsche owners
                 />
 
                 <a
-                  href="mailto:info@gtrmotorsport.com"
+                  href="mailto:info@gracetorace.com"
                   className="font-inter text-[18px] text-[#9B9B9B] transition hover:text-white"
                 >
-                  info@gtrmotorsport.com
+                
+                  info@gracetorace.com
                 </a>
 
               </div>

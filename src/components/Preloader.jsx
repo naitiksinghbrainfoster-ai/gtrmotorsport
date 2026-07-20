@@ -11,7 +11,7 @@ export default function Preloader() {
 
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 900);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [location.pathname]);
@@ -34,7 +34,7 @@ export default function Preloader() {
   -webkit-backdrop-filter: blur(10px);
 
   z-index: 999999;
-  animation: fadeOut .35s ease .75s forwards;
+  animation: fadeOut .5s ease 2.5s forwards;
 }
 
 .preloader img{

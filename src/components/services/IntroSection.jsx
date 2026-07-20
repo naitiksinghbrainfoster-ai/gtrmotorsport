@@ -19,7 +19,7 @@ export default function IntroSection() {
           <div className="mb-8 flex items-center gap-4">
             <div className="h-px w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.35em] text-[#C00000]">
               What We Do
             </span>
           </div>

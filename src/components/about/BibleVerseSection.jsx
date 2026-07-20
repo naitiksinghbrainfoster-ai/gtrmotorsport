@@ -44,13 +44,13 @@ export default function BibleVerseSection() {
 
         {/* Small Label */}
 
-        <p className="mt-8 font-inter text-[32px] font-semi uppercase tracking-[0.45em] text-[#C00000]">
+        <p className="mt-8 font-inter text-[16px] font-semi uppercase tracking-[0.45em] text-[#C00000]">
           OUR FOUNDATION
         </p>
 
         {/* Verse */}
 
-        <h2 className="mt-10 font-oswald text-[28px] font-bold leading-[1.35] text-white md:text-[28px] lg:text-[28px]">
+        <h2 className="mt-10 font-oswald text-[30px] font-bold leading-[1.35] text-white md:text-[38px] lg:text-[38px]">
           "Whatever you do, work at it with all your heart, as working for the Lord."
         </h2>
 

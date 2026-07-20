@@ -12,27 +12,27 @@ const services = [
   {
     icon: Wrench,
     title: "MAINTENANCE",
-    description: "Factory-scheduled servicing to keep your Porsche performing as intended",
+    description: "Factory-scheduled servicing to keep your Porsche performing as intended.",
   },
   {
     icon: Gauge,
     title: "DIAGNOSTICS",
-    description: "Dealer-level PIWIS diagnostics with expert troubleshooting and repair",
+    description: "Dealer-level PIWIS diagnostics with expert troubleshooting and repair.",
   },
   {
     icon: SlidersHorizontal,
     title: "PERFORMANCE",
-    description: "Precision upgrades engineered for improved handling, power, and braking",
+    description: "Precision upgrades engineered for improved handling, power, and braking.",
   },
   {
     icon: Cog,
     title: "ENGINE & Transmission",
-    description: "Complete rebuilds, drivetrain repairs, and performance engine packages",
+    description: "Complete rebuilds, drivetrain repairs, and performance engine packages.",
   },
   {
     icon: Flag,
     title: "TRACK PREP",
-    description: "Track-ready setup including alignments, corner balancing, and technical inspections",
+    description: "Track-ready setup including alignments, corner balancing, and technical inspections.",
   },
   {
     icon: ShieldCheck,
@@ -51,12 +51,12 @@ export default function ServicesSection() {
             <div className="mb-7 flex items-center gap-4">
               <div className="h-px w-12 bg-[#D50000]" />
 
-              <span className="font-inter text-[24px] font-semibold uppercase tracking-[0.1em] text-[#D50000]">
+              <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.1em] text-[#D50000]">
                 What We Do
               </span>
             </div>
 
-            <h2 className="font-oswald text-[26px] font-bold uppercase leading-none tracking-[1px] text-white md:text-[28px] xl:text-[28px]">
+            <h2 className="font-oswald text-[30px] font-bold uppercase leading-none tracking-[1px] text-white md:text-[38px] xl:text-[38px]">
               Service. Performance. Motorsport.
             </h2>
           </div>

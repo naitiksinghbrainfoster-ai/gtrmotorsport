@@ -168,7 +168,7 @@ export default function FaqSection() {
 
             <p className="mx-auto mt-5 max-w-[600px] font-inter text-[18px] leading-7 text-white md:text-[18px]">
               Here are answers to some of the most commonly asked questions 
-about our shop
+about our shop.
             </p>
           </div>
         </Reveal>

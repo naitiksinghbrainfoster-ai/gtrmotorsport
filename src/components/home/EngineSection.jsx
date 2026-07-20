@@ -29,13 +29,13 @@ export default function EngineSection() {
             {/* Section Label */}
             <div className="mb-8 flex items-center gap-4">
               <div className="h-px w-12 bg-[#D50000]" />
-              <span className="font-inter text-[22px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
+              <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
                ENGINE REBUILDING
               </span>
             </div>
 
             {/* Heading */}
-            <h2 className="font-oswald text-[34px] font-bold uppercase leading-[1.02] tracking-[0.5px] text-white xl:text-[36px]">
+            <h2 className="font-oswald text-[30px] font-bold uppercase leading-[1.02] tracking-[0.5px] text-white xl:text-[38px]">
               Precision Without 
               
               Compromise.

@@ -30,11 +30,11 @@ export default function GoogleMapSection() {
 
             <div className="pointer-events-auto px-6 py-8 sm:px-10 lg:px-14">
 
-              <span className="font-inter text-[28px] font-semibold uppercase tracking-[0.3em] text-[#C00000]">
+              <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.3em] text-[#C00000]">
                 Our Location
               </span>
 
-              <h2 className="mt-3 font-oswald text-[24px] font-semibold uppercase leading-tight text-white sm:text-[24px] md:text-[24px]">
+              <h2 className="mt-3 font-oswald text-[30px] font-semibold uppercase leading-tight text-white sm:text-[30px] md:text-[38px]">
                 Find GTR Motorsport
               </h2>
 

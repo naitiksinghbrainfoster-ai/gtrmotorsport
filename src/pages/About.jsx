@@ -3,7 +3,7 @@ import MeetPaul from "../components/about/MeetPaulSection";
 import OurStory from "../components/about/StorySection";
 import Timeline from "../components/about/TimelineSection";
 import BibleVerse from "../components/about/BibleVerseSection";
-// import CTA from "../components/about/CTASection";
+
 
 export default function Home() {0
   return (
@@ -13,7 +13,7 @@ export default function Home() {0
       <OurStory/>
       <Timeline />
       <BibleVerse />
-      {/* <CTA/> */}
+      
     </>
   );
 }

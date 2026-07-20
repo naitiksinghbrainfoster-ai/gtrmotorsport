@@ -10,7 +10,7 @@ export default function MissionSection() {
           <div className="mb-8 md:mb-10 flex items-center gap-4">
             <div className="h-px w-12 bg-[#D50000]" />
 
-            <span className="font-inter text-[22px] sm:text-[22px] md:text-[22px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
+            <span className="font-inter text-[16px] sm:text-[16px] md:text-[16px] font-semibold uppercase tracking-[0.35em] text-[#D50000]">
               Our Mission
             </span>
           </div>

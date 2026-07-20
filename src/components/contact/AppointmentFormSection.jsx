@@ -27,11 +27,11 @@ export default function AppointmentFormSection() {
 
             <div>
 
-              <span className="font-inter text-[24px] font-semibold uppercase tracking-[0.25em] text-[#C00000]">
+              <span className="font-inter text-[16px] font-semibold uppercase tracking-[0.25em] text-[#C00000]">
                 Appointment Request
               </span>
 
-              <h2 className="mt-4 font-oswald text-[20px] font-semibold leading-tight text-white md:text-[26px]">
+              <h2 className="mt-4 font-oswald text-[30px] font-semibold leading-tight text-white md:text-[38px]">
                 Schedule An Appointment
               </h2>
 

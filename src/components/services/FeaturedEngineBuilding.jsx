@@ -60,7 +60,7 @@ export default function FeaturedEngineBuilding() {
           <div className="mb-6 sm:mb-8 flex items-center gap-3 sm:gap-4">
             <div className="h-[2px] w-8 sm:w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[22px] sm:text-[22px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[16px] sm:text-[16px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
               Featured Service
             </span>
           </div>

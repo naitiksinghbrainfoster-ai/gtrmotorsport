@@ -102,41 +102,7 @@ export default function ContactInfoSection() {
           })}
         </div>
 
-        {/* Bottom Highlight */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: 35 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          viewport={{ once: true }}
-          className="mt-10 rounded-sm border border-[#C00000]/20 bg-[#080808] p-6 sm:mt-12 sm:p-8 lg:p-10"
-        >
-          <div className="grid items-center gap-6 lg:grid-cols-[1fr_auto] lg:gap-10">
-            <div>
-              <p className="font-inter text-[11px] uppercase tracking-[0.3em] text-[#C00000] sm:text-[12px] sm:tracking-[0.35em]">
-                Porsche Specialists
-              </p>
-
-              <h3 className="mt-3 font-oswald text-[24px] uppercase leading-tight text-white sm:text-[28px] md:text-[34px]">
-                Have Questions About
-                <br />
-                Your Porsche?
-              </h3>
-
-              <p className="mt-4 max-w-[620px] font-inter text-[14px] leading-7 text-[#B5B5B5] sm:text-[15px] sm:leading-8">
-                From scheduled maintenance and diagnostics to complete engine
-                builds and track preparation, we're here to help you get the
-                very best from your Porsche.
-              </p>
-            </div>
-
-            <a
-              href="tel:+15559119119"
-              className="inline-flex items-center justify-center bg-[#C00000] px-7 py-3.5 font-oswald text-[13px] uppercase tracking-[0.16em] text-white transition duration-300 hover:bg-[#980000] sm:px-8 sm:py-4 sm:text-[14px]"
-            >
-              Call Today
-            </a>
-          </div>
-        </motion.div> */}
+        
       </div>
     </section>
   );

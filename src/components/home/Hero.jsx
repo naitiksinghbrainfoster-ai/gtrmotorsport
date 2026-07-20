@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import heroBg from "../../assets/img/home/hero-bg.jpg"; // swap in your actual image path
-import heroLogo from "../../assets/img/home/hero_logo2.svg";
+
 
 const STATS = [
   { value: 30, suffix: "+", label: "Years Experience" },
   { value: 100, suffix: "%", label: "Porsche Focused" },
   { value: null, display: "PIWIS", label: "Factory Diagnostics" },
-  { value: 1, suffix: "", label: "Mission: Excellence" },
+ 
 ];
 
 // Counts up from 0 to `value` once it scrolls into view
@@ -98,20 +98,25 @@ export default function Hero() {
           maxWidth: "680px",
         }}
       >
-        <img
-          src={heroLogo}
-          alt="GTR Motorsport — Grace to Race"
-          className="gtr-hero-logo gtr-anim"
-          style={{
-            width: "100%",
-            maxWidth: "clamp(200px, 32vw, 480px)",
-            height: "auto",
-            display: "block",
-            marginTop: "1.5rem",
-            filter: "drop-shadow(0 4px 10px rgba(0,0,0,0.7))",
-            animationDelay: "0.1s",
-          }}
-        />
+
+        <h1
+  className="gtr-anim"
+  style={{
+    fontFamily: "'Oswald', sans-serif",
+    fontWeight: 700,
+    fontSize: "clamp(2.8rem, 5vw, 4.8rem)",
+    lineHeight: 1,
+    color: "#fff",
+    textTransform: "uppercase",
+    margin: "0 0 1.2rem 0",
+    letterSpacing: "0.02em",
+    animationDelay: "0.1s",
+  }}
+>
+  PORSCHE <br />
+  SPECIALISTS
+</h1>
+        
 
         <p
           className="gtr-hero-copy gtr-anim"
@@ -121,8 +126,8 @@ export default function Hero() {
             fontSize: "clamp(1rem, 1.6vw, 1.15rem)",
             lineHeight: 1.6,
             color: "#fff",
-            maxWidth: "480px",
-            margin: "0.2rem 0 0 1.2rem",
+            margin: "2rem 0 0 0",
+            maxWidth: "500px",
             animationDelay: "0.3s",
           }}
         >
@@ -139,7 +144,7 @@ export default function Hero() {
             alignItems: "center",
             gap: "0.6rem",
             marginTop: "1.75rem",
-            marginLeft: "1.4rem",
+           marginLeft: "0",
             padding: "0.9rem 2rem",
             background: "#e42020",
             color: "#fff",

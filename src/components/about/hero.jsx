@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="mb-5 flex items-center gap-3 sm:gap-4">
             <div className="h-[2px] w-8 sm:w-14 bg-[#C00000]" />
 
-            <span className="font-inter text-[22px] sm:text-[22px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
+            <span className="font-inter text-[16px] sm:text-[16px] font-semibold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-[#C00000]">
               About GTR Motorsport
             </span>
           </div>
@@ -60,14 +60,14 @@ export default function Hero() {
             className="
               font-oswald
               font-bold
-      
+         uppercase
               leading-[1.08]
               text-white
-              text-[18px]
-              sm:text-[18px]
-              md:text-[25px]
-              lg:text-[26px]
-              xl:text-[32px]
+              text-[30px]
+              sm:text-[30px]
+              md:text-[30px]
+              lg:text-[38px]
+              xl:text-[38px]
             "
           >
            Built For Porsche Owners
